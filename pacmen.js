@@ -64,7 +64,7 @@ function checkCollisions(item) {
 function makeOne() {
   pacMen.push(makePac()); // add a new PacMan
 }
-//don't change this line
+
 if (typeof module !== 'undefined') {
   module.exports = { checkCollisions, update, pacMen };
 }
